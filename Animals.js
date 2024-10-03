@@ -34,10 +34,6 @@ console.log(pepe.toString());
 class Terrestrial extends Animal {
     #site = "land"
 
-    constructor() {
-        super();
-    }
-
     run () {
         console.log("Está corriendo");
     }
